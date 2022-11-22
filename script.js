@@ -3,18 +3,13 @@ let button = document.querySelector('.button')
 let inputs = document.querySelector('.input')
 let div = document.querySelector('.div')
 button.addEventListener('click', onSubmit)
-function validate() {
+    
+function onSubmit() {
         for (i = 0; i = 1; i++) {
             if (inputs[i] == "") {
                 console.log = "tá vazio"
             }
-        }
-    }
-    
-function onSubmit() {
-    validate()
-
-    
+        } 
 }
 /*if (form.checkValidity() == false) {
         console.log('falta coisa')
