@@ -6,5 +6,6 @@ button.addEventListener('click', onSubmit)
 function onSubmit() {
     if (form.checkValidity() == false) {
     console.log('falta coisa')
-}
+} else if (form.checkValidity() == true)
+console.log('deu certo')
 }
