@@ -11,13 +11,15 @@
     <form action="">
         <div>
             <label for="nome">Nome:</label>
-            <input type="text" id="nome" pattern="[a-z]" minlength="10" placeholder="Insira o nome">
+            <input type="text" id="nome" pattern="[a-z]" minlength="10" placeholder="Insira o nome" required>
         </div>
 
         <div>
             <label for="número">Número:</label>
-            <input type="text" id="numero" pattern="[0-9]\s{4}" minlength="19" placeholder="Insira o número. Ex.: 0000 0000 0000 0000">
+            <input type="text" id="numero" pattern="[0-9]\s{4}" minlength="19" placeholder="Insira o número. Ex.: 0000 0000 0000 0000" required>
         </div>
+
+        <button type="submit">Submit</button>
     </form>
 
 
