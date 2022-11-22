@@ -10,9 +10,14 @@ function validate() {
             }
         }
     }
-
+    
 function onSubmit() {
     validate()
 
     
 }
+/*if (form.checkValidity() == false) {
+        console.log('falta coisa')
+    } else if (form.checkValidity() == true) {
+        console.log('deu certo')
+    }*/
