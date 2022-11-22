@@ -8,7 +8,7 @@ function onSubmit() {
     function validate() {
         for (i = 0; i = 1; i++) {
             if (inputs[i] == "") {
-                div.innerHTML = "tá vazio"
+                console.log = "tá vazio"
             }
         }
     }
